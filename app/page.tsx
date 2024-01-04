@@ -26,12 +26,12 @@ export default function Home() {
         <div className="flex flex-col w-8/12 h-8/12 items-left space-y-2 justify-between">
           <h1 className="font-bold">About Me</h1>
           <p className="text-lg">
-            Hi! I'm Aidan Robinson, a Computer Science Student at UCLA. I love
-            building things that excites people and challenges what they believe
-            is possible. I'm interested in Software Engineering, Artificial
-            Intelligence/Machine Learning, and the startup world. Away from the
-            computer, I love playing piano & guitar, listening to classic rock ,
-            and boxing!
+            Hi! I&#39;m Aidan Robinson, a Computer Science Student at UCLA. I
+            love building things that excites people and challenges what they
+            believe is possible. I&#39;m interested in Software Engineering,
+            Artificial Intelligence/Machine Learning, and the startup world.
+            Away from the computer, I love playing piano & guitar, listening to
+            classic rock , and boxing!
           </p>
         </div>
       </div>
