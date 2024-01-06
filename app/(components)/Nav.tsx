@@ -7,7 +7,6 @@ export default function Nav() {
         <Link href="/">Home</Link>
 
         <Link href="/Projets">Projects</Link>
-        <Link href="/About">About</Link>
       </div>
     </nav>
   );
