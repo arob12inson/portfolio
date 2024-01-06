@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex p-0 w-full h-full justify-center items-center">
-      <figure className="md:flex rounded-xl md:w-6/12 p-8 md:p-0  items-center ">
+    <div className="flex p-0 pt-12 w-full h-full justify-center items-center">
+      <figure className="lg:flex rounded-xl lg:w-6/12 p-8 md:p-0  items-center ">
         <Image
           src="/me.jpg"
           alt="This is supposed to be a picture of me, but I guess it isn't."
@@ -15,7 +15,7 @@ export default function Home() {
             objectPosition: "center",
           }}
         />
-        <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+        <div className="pt-6 lg:p-8 text-center lg:text-left space-y-4">
           <figcaption className="font-medium">
             <h1 className="font-bold">About Me</h1>
           </figcaption>
