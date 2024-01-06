@@ -6,7 +6,7 @@ export default function Nav() {
       <div className="flex items-center space-x-6">
         <Link href="/">Home</Link>
 
-        <Link href="/Projets">Projects</Link>
+        <Link href="/Projects">Projects</Link>
       </div>
     </nav>
   );
