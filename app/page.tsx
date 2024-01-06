@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex p-0 w-full h-full justify-center items-center">
-      <figure className="md:flex rounded-xl md:w-8/12 p-8 md:p-0  items-center ">
+      <figure className="md:flex rounded-xl md:w-6/12 p-8 md:p-0  items-center ">
         <Image
           src="/me.jpg"
           alt="This is supposed to be a picture of me, but I guess it isn't."
