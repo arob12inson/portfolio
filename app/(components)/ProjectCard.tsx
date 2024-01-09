@@ -4,7 +4,7 @@ const ProjectCard = ({ title }: { title: string }) => {
   return (
     <div
       className="flex flex-col bg-card hover:bg-card-hover 
-    rounded-md shadow-lg p-3 m-2 w-full lg:w-5/12 xl:w-1/4 h-1/4 text-black"
+    rounded-md shadow-lg p-3 m-2 w-full lg:w-5/12 xl:w-1/4 h-72 lg:h-96 text-black"
     >
       <h4>{title}</h4>
       <hr className="h-px border-0 bg-page mb-2" />
