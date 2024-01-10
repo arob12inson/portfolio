@@ -26,12 +26,6 @@ const ProjectCard = ({
       {/* TODO maybe add some icons? like the github repo? */}
       {/* TODO make cards all the same fixed size, no overflow allowed */}
     </div>
-
-    // <div className="flex flex-col">
-    //   <div>
-    //     <Image src="/me.jpg" alt="Project image" width={400} height={300} />
-    //   </div>
-    // </div>
   );
 };
 
