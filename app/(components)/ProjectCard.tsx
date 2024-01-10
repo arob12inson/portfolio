@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-const ProjectCard = ({ title }: { title: string }) => {
+const ProjectCard = ({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) => {
   return (
     <div
       className="flex flex-col bg-card hover:bg-card-hover 
@@ -9,7 +15,7 @@ const ProjectCard = ({ title }: { title: string }) => {
       <h4>{title}</h4>
       <hr className="h-px border-0 bg-page mb-2" />
       <p className="whitespace-pre-wrap text-black oveflow-hidden">
-        Lorem ipsum dolor sit amet,
+        {description}
       </p>
       <div className="flex-grow"></div>
       <div className="flex mt-2">
