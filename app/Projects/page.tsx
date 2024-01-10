@@ -7,10 +7,11 @@ const Projects = () => {
       <ProjectCard
         title="AI From Scratch"
         description="A neural network that recognizes handwritten images"
+        link="ai-from-scratch"
       />
-      <ProjectCard title="Portfolio Site!" description="hehe" />
-      <ProjectCard title="Portfolio Site 2!" description="hehe" />
-      <ProjectCard title="Portfolio Site 3!" description="hehe" />
+      <ProjectCard title="Portfolio Site!" description="hehe" link="" />
+      <ProjectCard title="Portfolio Site 2!" description="hehe" link="" />
+      <ProjectCard title="Portfolio Site 3!" description="hehe" link="" />
     </div>
   );
 };
